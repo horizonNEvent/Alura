@@ -1,0 +1,15 @@
+E:\Alura\POO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.exe
+E:\Alura\POO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.deps.json
+E:\Alura\POO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.runtimeconfig.json
+E:\Alura\POO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.dll
+E:\Alura\POO\Encapsulamento\bin\Debug\net9.0\Encapsulamento.pdb
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.AssemblyInfoInputs.cache
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.AssemblyInfo.cs
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.csproj.CoreCompileInputs.cache
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.sourcelink.json
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.dll
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\refint\Encapsulamento.dll
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.pdb
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\Encapsulamento.genruntimeconfig.cache
+E:\Alura\POO\Encapsulamento\obj\Debug\net9.0\ref\Encapsulamento.dll

@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Avaliacao avaliacao = new Avaliacao("Carla Silva");
+avaliacao.AtribuirNota(11);   // inválido
+avaliacao.AtribuirNota(8.5);  // válido
