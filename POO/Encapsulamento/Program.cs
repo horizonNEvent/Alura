@@ -204,25 +204,84 @@ then executes a `for` loop that iterates from 0 to the value of `limite`. */
 
 // O laço certo para o problema
 
-List<double> notas = new List<double>
-        {
-    8.5,
-    6.2,
-    9.1,
-    5.8,
-    7.4
-        };
+// List<double> notas = new List<double>
+//         {
+//     8.5,
+//     6.2,
+//     9.1,
+//     5.8,
+//     7.4
+//         };
 
-for (int i = 0; i < notas.Count; i++)
+// for (int i = 0; i < notas.Count; i++)
+// {
+//     if (notas[i] < 7)
+//     {
+//         Console.WriteLine($"O aluno com a nota {notas[i]} está abaixo da média!");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"O aluno com a nota {notas[i]} está indo muito bem!");
+
+//     }
+// }
+
+// 1) Faça um programa para calcular o estoque médio de uma peça,
+//       sendo que:
+// ESTOQUE MÉDIO = (QUANTIDADE_MÍNIMA + QUANTIDADE_MÁXIMA) / 2. 
+
+/* This C# program calculates the average stock level between a minimum and maximum quantity entered by
+the user. */
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Console.WriteLine($"Digite a quantidade mínima");
+//         int quantidadeMinima = int.Parse(Console.ReadLine());
+
+//         Console.WriteLine($"Digite a quantidade máxima");
+//         int quantidadeMaxima = int.Parse(Console.ReadLine());
+
+//         double estoqueMedio = (double)(quantidadeMinima + quantidadeMaxima) / 2;
+//         Console.WriteLine($"O resultado é {estoqueMedio:F1}");
+//     }
+
+// }
+
+// double cotacaoDolar = 5.25;
+// Console.WriteLine("Digite o valor em reais:");
+// double valorReais = double.Parse(Console.ReadLine());
+// double valorDolares = valorReais / cotacaoDolar;
+// Console.WriteLine($"O valor em dólares é: {valorDolares:F2}");
+
+// namespace Encapsulamento
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Console.WriteLine($"Digite o valor em reais:");
+//             double valorReais = double.Parse(Console.ReadLine());
+//             Dolar dolar = new Dolar();
+//             double valorDolares = dolar.ConverterParaDolares(valorReais);
+//             Console.WriteLine($"O valor em dólares é: {valorDolares:F2}");
+//         }
+//     }
+// }
+
+namespace Encapsulamento
 {
-    if (notas[i] < 7)
+    class Program
     {
-        Console.WriteLine($"O aluno com a nota {notas[i]} está abaixo da média!");
-    }
-    else
-    {
-        Console.WriteLine($"O aluno com a nota {notas[i]} está indo muito bem!");
-
+        static void Main(string[] args)
+        {
+            VendaDePecas martelo = new VendaDePecas("C23", 23, 5, 5); ;
+            martelo.ExibirDados();
+            martelo.ComissaoVendedor();
+        }
     }
 }
+
+
+
 
